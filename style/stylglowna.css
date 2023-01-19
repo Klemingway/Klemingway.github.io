@@ -33,7 +33,7 @@ header {
     padding-top: 0.5em;
     position: sticky;
     top: 0;
-    height: auto;
+    height: 5vh;
     background-color: #1d92ff;
     width: 100vw;
     font-size: 20px;
@@ -117,7 +117,8 @@ header {
 
 .ikon {
     max-height: 15vh;
-    mix-blend-mode: multiply;
+    mix-blend-mode: difference;
+    filter: invert(100%);
 }
 
 #kal1 {
